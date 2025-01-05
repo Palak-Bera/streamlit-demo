@@ -7,7 +7,7 @@ st.title("Display Image with a Button")
 # Button to show the image
 if st.button("Show Image"):
     # Load the image from the local folder
-    image_path = r"C:\Users\PALAK\Desktop\New folder\streamlit\myimage.jpg"  # Replace with the path to your image
+    image_path = r"myimage.jpg"  # Replace with the path to your image
     try:
         image = Image.open(image_path)
         # Display the image
